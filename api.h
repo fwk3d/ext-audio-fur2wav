@@ -4,10 +4,10 @@
 
 AUTORUN {
     recipe(
-        // paths and extensions. expected errorlevel
+        // paths and extensions. final ziplevel
         "**.fur", 0,
         // conversion steps
-        "ext/ext-audio-fur2wav/furnace.EXE INPUT -output OUTPUT -loglevel error\n"
+        "ext/ext-audio-fur2wav/furnace.EXE INPUT -output OUTPUT.wav -loglevel error\n"
     );
 }
 
